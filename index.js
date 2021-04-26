@@ -23,7 +23,7 @@ function moveDodgerLeft() {
   }
 }
 function moveDodgerRight() {
-  let leftNumbers = dodger.style.left.replace("px", "");
+  let rightNumbers = dodger.style.left.replace("px", "");
   let left = parseInt(leftNumbers, 10);
  
   if (left > 0) {
